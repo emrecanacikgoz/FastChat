@@ -1,0 +1,62 @@
+Setting stack size to unlimited...
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 4125953
+max locked memory       (kbytes, -l) unlimited
+max memory size         (kbytes, -m) 491520000
+open files                      (-n) 120000
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 1030177
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+number of processors:64
+Tue Jul  2 09:03:07 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.54.14              Driver Version: 550.54.14      CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:88:00.0 Off |                    0 |
+| N/A   33C    P0             64W /  400W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   1  NVIDIA A100-SXM4-80GB          On  |   00000000:8B:00.0 Off |                    0 |
+| N/A   35C    P0             61W /  400W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   2  NVIDIA A100-SXM4-80GB          On  |   00000000:C8:00.0 Off |                    0 |
+| N/A   33C    P0             60W /  400W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+|   3  NVIDIA A100-SXM4-80GB          On  |   00000000:CB:00.0 Off |                    0 |
+| N/A   33C    P0             65W /  400W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Output to data/mt_bench/model_answer/Qwen2-72B-Instruct.jsonl
+Loading checkpoint shards:   0%|          | 0/37 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/37 [00:02<01:19,  2.20s/it]Loading checkpoint shards:   5%|▌         | 2/37 [00:04<01:17,  2.22s/it]Loading checkpoint shards:   8%|▊         | 3/37 [00:06<01:15,  2.23s/it]Loading checkpoint shards:  11%|█         | 4/37 [00:08<01:11,  2.16s/it]Loading checkpoint shards:  14%|█▎        | 5/37 [00:15<02:04,  3.88s/it]Loading checkpoint shards:  16%|█▌        | 6/37 [00:17<01:40,  3.25s/it]Loading checkpoint shards:  19%|█▉        | 7/37 [00:19<01:24,  2.83s/it]Loading checkpoint shards:  22%|██▏       | 8/37 [00:21<01:14,  2.58s/it]Loading checkpoint shards:  24%|██▍       | 9/37 [00:23<01:07,  2.42s/it]Loading checkpoint shards:  27%|██▋       | 10/37 [00:25<01:02,  2.31s/it]Loading checkpoint shards:  30%|██▉       | 11/37 [00:27<00:57,  2.19s/it]Loading checkpoint shards:  32%|███▏      | 12/37 [00:29<00:53,  2.14s/it]Loading checkpoint shards:  35%|███▌      | 13/37 [00:31<00:50,  2.10s/it]Loading checkpoint shards:  38%|███▊      | 14/37 [00:34<00:49,  2.14s/it]Loading checkpoint shards:  41%|████      | 15/37 [00:35<00:45,  2.09s/it]Loading checkpoint shards:  43%|████▎     | 16/37 [00:37<00:42,  2.03s/it]Loading checkpoint shards:  46%|████▌     | 17/37 [00:39<00:39,  2.00s/it]Loading checkpoint shards:  49%|████▊     | 18/37 [00:41<00:37,  1.99s/it]Loading checkpoint shards:  51%|█████▏    | 19/37 [00:43<00:36,  2.02s/it]Loading checkpoint shards:  54%|█████▍    | 20/37 [00:45<00:34,  2.02s/it]Loading checkpoint shards:  57%|█████▋    | 21/37 [00:47<00:32,  2.02s/it]Loading checkpoint shards:  59%|█████▉    | 22/37 [00:49<00:30,  2.01s/it]Loading checkpoint shards:  62%|██████▏   | 23/37 [00:59<01:00,  4.31s/it]Loading checkpoint shards:  65%|██████▍   | 24/37 [01:01<00:47,  3.64s/it]Loading checkpoint shards:  68%|██████▊   | 25/37 [01:03<00:37,  3.16s/it]Loading checkpoint shards:  70%|███████   | 26/37 [01:05<00:30,  2.78s/it]Loading checkpoint shards:  73%|███████▎  | 27/37 [01:07<00:25,  2.54s/it]Loading checkpoint shards:  76%|███████▌  | 28/37 [01:09<00:21,  2.38s/it]Loading checkpoint shards:  78%|███████▊  | 29/37 [01:11<00:18,  2.28s/it]Loading checkpoint shards:  81%|████████  | 30/37 [01:13<00:15,  2.17s/it]Loading checkpoint shards:  84%|████████▍ | 31/37 [01:15<00:12,  2.10s/it]Loading checkpoint shards:  86%|████████▋ | 32/37 [01:17<00:10,  2.07s/it]Loading checkpoint shards:  89%|████████▉ | 33/37 [01:19<00:08,  2.05s/it]Loading checkpoint shards:  92%|█████████▏| 34/37 [01:21<00:06,  2.06s/it]Loading checkpoint shards:  95%|█████████▍| 35/37 [01:23<00:04,  2.04s/it]Loading checkpoint shards:  97%|█████████▋| 36/37 [01:25<00:02,  2.01s/it]Loading checkpoint shards: 100%|██████████| 37/37 [01:27<00:00,  1.91s/it]Loading checkpoint shards: 100%|██████████| 37/37 [01:27<00:00,  2.36s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+  0%|          | 0/80 [00:00<?, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token.As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  1%|▏         | 1/80 [01:45<2:19:21, 105.84s/it]/truba/home/eacikgoz/miniconda3/envs/FastChat/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:540: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/truba/home/eacikgoz/miniconda3/envs/FastChat/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:545: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/truba/home/eacikgoz/miniconda3/envs/FastChat/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:562: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  2%|▎         | 2/80 [03:29<2:16:17, 104.84s/it]  4%|▍         | 3/80 [04:51<2:01:08, 94.39s/it]   5%|▌         | 4/80 [05:15<1:24:14, 66.51s/it]  6%|▋         | 5/80 [07:23<1:50:38, 88.52s/it]  8%|▊         | 6/80 [09:31<2:05:54, 102.09s/it]  9%|▉         | 7/80 [11:18<2:06:02, 103.60s/it] 10%|█         | 8/80 [11:25<1:27:35, 73.00s/it]  11%|█▏        | 9/80 [13:09<1:37:39, 82.53s/it] 12%|█▎        | 10/80 [13:52<1:22:01, 70.31s/it] 14%|█▍        | 11/80 [14:20<1:06:10, 57.54s/it] 15%|█▌        | 12/80 [15:42<1:13:33, 64.90s/it] 16%|█▋        | 13/80 [16:10<59:56, 53.68s/it]   18%|█▊        | 14/80 [18:01<1:18:08, 71.04s/it] 19%|█▉        | 15/80 [18:43<1:07:32, 62.35s/it] 20%|██        | 16/80 [19:59<1:10:45, 66.34s/it] 21%|██▏       | 17/80 [21:42<1:21:10, 77.31s/it] 22%|██▎       | 18/80 [23:54<1:36:49, 93.70s/it] 24%|██▍       | 19/80 [24:56<1:25:50, 84.43s/it] 25%|██▌       | 20/80 [26:28<1:26:34, 86.57s/it] 26%|██▋       | 21/80 [27:03<1:09:48, 70.99s/it] 28%|██▊       | 22/80 [28:33<1:14:22, 76.94s/it] 29%|██▉       | 23/80 [30:26<1:23:08, 87.51s/it] 30%|███       | 24/80 [31:14<1:10:37, 75.67s/it] 31%|███▏      | 25/80 [33:14<1:21:41, 89.12s/it] 32%|███▎      | 26/80 [33:38<1:02:30, 69.46s/it] 34%|███▍      | 27/80 [36:01<1:20:50, 91.53s/it] 35%|███▌      | 28/80 [37:25<1:17:21, 89.27s/it] 36%|███▋      | 29/80 [38:02<1:02:39, 73.71s/it] 38%|███▊      | 30/80 [38:50<55:02, 66.05s/it]   39%|███▉      | 31/80 [39:01<40:15, 49.29s/it] 40%|████      | 32/80 [40:22<47:08, 58.92s/it] 41%|████▏     | 33/80 [41:26<47:23, 60.51s/it] 42%|████▎     | 34/80 [42:34<47:57, 62.56s/it] 44%|████▍     | 35/80 [44:36<1:00:23, 80.52s/it] 45%|████▌     | 36/80 [45:29<53:00, 72.29s/it]   46%|████▋     | 37/80 [47:32<1:02:39, 87.44s/it] 48%|████▊     | 38/80 [49:46<1:11:04, 101.54s/it] 49%|████▉     | 39/80 [51:37<1:11:19, 104.38s/it] 50%|█████     | 40/80 [51:41<49:22, 74.07s/it]    51%|█████▏    | 41/80 [52:00<37:28, 57.67s/it] 52%|█████▎    | 42/80 [54:15<51:15, 80.93s/it] 54%|█████▍    | 43/80 [56:19<57:48, 93.76s/it] 55%|█████▌    | 44/80 [56:25<40:31, 67.55s/it] 56%|█████▋    | 45/80 [57:28<38:29, 65.98s/it] 57%|█████▊    | 46/80 [58:31<36:58, 65.26s/it] 59%|█████▉    | 47/80 [1:00:31<44:57, 81.74s/it] 60%|██████    | 48/80 [1:00:59<34:55, 65.49s/it] 61%|██████▏   | 49/80 [1:02:21<36:23, 70.45s/it] 62%|██████▎   | 50/80 [1:02:28<25:45, 51.52s/it] 64%|██████▍   | 51/80 [1:04:12<32:23, 67.01s/it] 65%|██████▌   | 52/80 [1:06:28<40:56, 87.75s/it] 66%|██████▋   | 53/80 [1:08:14<41:57, 93.24s/it] 68%|██████▊   | 54/80 [1:09:22<37:11, 85.84s/it] 69%|██████▉   | 55/80 [1:11:12<38:46, 93.06s/it] 70%|███████   | 56/80 [1:13:04<39:29, 98.73s/it] 71%|███████▏  | 57/80 [1:15:33<43:34, 113.66s/it] 72%|███████▎  | 58/80 [1:15:36<29:34, 80.68s/it]  74%|███████▍  | 59/80 [1:16:14<23:44, 67.83s/it] 75%|███████▌  | 60/80 [1:17:34<23:49, 71.46s/it] 76%|███████▋  | 61/80 [1:17:56<17:54, 56.53s/it] 78%|███████▊  | 62/80 [1:18:45<16:16, 54.27s/it] 79%|███████▉  | 63/80 [1:20:14<18:21, 64.77s/it] 80%|████████  | 64/80 [1:22:26<22:36, 84.78s/it] 81%|████████▏ | 65/80 [1:23:24<19:13, 76.91s/it] 82%|████████▎ | 66/80 [1:23:58<14:57, 64.09s/it] 84%|████████▍ | 67/80 [1:24:33<11:58, 55.27s/it] 85%|████████▌ | 68/80 [1:25:40<11:44, 58.73s/it] 86%|████████▋ | 69/80 [1:26:08<09:05, 49.55s/it] 88%|████████▊ | 70/80 [1:26:18<06:15, 37.57s/it] 89%|████████▉ | 71/80 [1:26:29<04:27, 29.75s/it] 90%|█████████ | 72/80 [1:27:43<05:43, 42.93s/it] 91%|█████████▏| 73/80 [1:28:45<05:41, 48.77s/it] 92%|█████████▎| 74/80 [1:30:35<06:43, 67.25s/it] 94%|█████████▍| 75/80 [1:31:29<05:14, 62.99s/it] 95%|█████████▌| 76/80 [1:32:22<04:00, 60.12s/it] 96%|█████████▋| 77/80 [1:34:28<04:00, 80.04s/it] 98%|█████████▊| 78/80 [1:35:28<02:27, 73.89s/it] 99%|█████████▉| 79/80 [1:37:48<01:33, 93.64s/it]100%|██████████| 80/80 [1:39:45<00:00, 100.77s/it]100%|██████████| 80/80 [1:39:45<00:00, 74.82s/it] 
