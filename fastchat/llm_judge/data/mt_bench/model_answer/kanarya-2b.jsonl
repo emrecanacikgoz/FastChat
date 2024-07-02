@@ -1,0 +1,3 @@
+{"question_id": 115, "answer_id": "SsJ6BRXascfqqBRaoncxh5", "model_id": "kanarya-2b", "choices": [{"index": 0, "turns": ["", ""]}], "tstamp": 1719841151.0177517}
+{"question_id": 151, "answer_id": "SisDtKhEgCJreTmWiA5MHt", "model_id": "kanarya-2b", "choices": [{"index": 0, "turns": ["ERROR", "ERROR"]}], "tstamp": 1719841151.3611567}
+{"question_id": 134, "answer_id": "PJQngCQ5zncqmgFCbgr9Xm", "model_id": "kanarya-2b", "choices": [{"index": 0, "turns": ["ERROR", "ERROR"]}], "tstamp": 1719841169.750425}
